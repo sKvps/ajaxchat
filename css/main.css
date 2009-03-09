@@ -1,0 +1,62 @@
+body {
+	background:#111;
+}
+.message {
+	color:#069;
+	padding:3px;
+	margin:2px;
+	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.buddyStatus {
+	font-size:9pt;
+	color:#036;
+}
+#loginTable {
+	padding:15px;
+	margin:0 auto;
+	margin-top:10%;
+	font-size:12pt;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#chatStatus {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	color:#FFF;
+	display:block;
+ 	float:left;
+}
+.ui-dialog-buttonpane {
+	background-color:#000;
+	color:#0CC;
+}
+.ui-dialog-container {
+	background-color:#000;
+	color:#0CC;
+}
+#status {
+	color:#FFF;
+	padding:10px;
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif;
+	float:left;
+}
+#buddyList a{
+	color:#093;
+	text-decoration:none;
+	padding-right:30px;
+	padding-left:30px;
+	margin-bottom:10px;
+	margin-left:0;
+}
+#loader {
+	position:absolute;
+	top:0;
+	width:220px;
+	display:none;
+}
+#buddyList a:hover {
+	font-weight:bold;
+	color:#FFF;
+	background-color:#030;
+}
