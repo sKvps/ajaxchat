@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Yaakov's Ajax Chat System</title>
+<link href="js/theme/ui.all.css" type="text/css" media="all" rel="stylesheet"/>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/ui.js"></script>
+<script type="text/javascript" src="js/scroll.js"></script>
+<script type="text/javascript" src="js/chat.js"></script>
+<style type="text/css">
+body {
+	background:#111;
+}
+.message {
+	color:#069;
+	padding:3px;
+	margin:2px;
+	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.buddyStatus {
+	font-size:9pt;
+	color:#036;
+}
+#loginTable {
+	padding:15px;
+	margin:0 auto;
+	margin-top:10%;
+	font-size:12pt;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#chatStatus {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	color:#FFF;
+	display:block;
+ 	float:left;
+}
+.ui-dialog-buttonpane {
+	background-color:#000;
+	color:#0CC;
+}
+.ui-dialog-container {
+	background-color:#000;
+	color:#0CC;
+}
+#status {
+	color:#FFF;
+	padding:10px;
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif;
+	float:left;
+}
+#buddyList a{
+	color:#093;
+	text-decoration:none;
+	padding-right:30px;
+	padding-left:30px;
+	margin-bottom:10px;
+	margin-left:0;
+}
+#loader {
+	position:absolute;
+	top:0;
+	width:220px;
+	display:none;
+}
+#buddyList a:hover {
+	font-weight:bold;
+	color:#FFF;
+	background-color:#030;
+}
+</style>
+</head>
+<body>
+<div id="login">
+<table align="center" class="ui-dialog ui-active-state" id="loginTable">
+<tr><td colspan="2" style="text-align:center;">Welcome to Yaakov Relkin's Ajax Chat Application!<br/><br/></td></tr>
+<tr align="center"><td>Username</td><td><input type="text" id="username" value=""/></td></tr>
+<tr align="center"><td>Password</td><td><input type="password" id="password" value=""/></td></tr>
+<tr><td colspan="2" style="text-align:center;"><input type="button" id="login_submit" style="margin-top:10px;" value="Login"/></td></tr>
+</table>
+</div>
+<div id="loader">
+<img src="images/loader.gif" align="middle" height="19" width="220"/>
+</div>
+<div id="chatStatus" style="display:none;">Loading...</div><br/>
+<div id="status">Loading...</div>
+<div id="buddyList" title="Buddy List">Loading...</div>
+</body>
+</html>
