@@ -1,8 +1,10 @@
-This is an Ajax/PHP/MySQL Chat System.
-Please be advised that the code is in beta, and that I will be adding features later on in the project.
-
-Features to implement 3/11/09 ::
-
+/** 
+	@author Yaakov Relkin
+    @last-modified 3/11/09
+    @version 0.8.7
+*/
+This is a Ajax/PHP/MySQL Chat System.
+In future committs, i hope to implement the following :
 New message notifications,
 File Transfer,
 Status State (i.e. Away, Available, Busy),
