@@ -368,9 +368,5 @@ function toBoolean(obj) {
 function in_array(needle, array) {for(var i in array) {if(array[i]==needle) return true; } return false;}
 function ucfirst(str) {
 	if(str.length < 1) return str;
-	var s=str.charAt(0).toUpperCase();
-	for(var i=1; i < str.length; i++) {
-		s+=str.charAt(i);
-	}
-	return s;
+        return str.substring(0, 1).toUpperCase()+str.substring(1, str.length());
 }
