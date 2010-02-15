@@ -2,7 +2,7 @@
    File: chat.js
    Caller: index.html (via <script> tag)
    Purpose: This is the AJAX chat JavaScript file
-   Author: Yaakov Relkin
+   Author: Jacob Relkin
    Version: 0.8.7
 */
 
